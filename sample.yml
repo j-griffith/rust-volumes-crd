@@ -1,0 +1,8 @@
+# Example volume spec using the Volume CRD object
+apiVersion: example.com/v1alpha1
+kind: Volume
+metadata:
+  name: test-volume
+  namespace: default
+spec:
+    size: 100
